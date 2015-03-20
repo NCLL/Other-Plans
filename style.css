@@ -205,7 +205,7 @@ input,
 select,
 textarea {
 	color: #333;
-	font-family: "Noto Serif", serif;
+	font-family: "Alegreya", serif;
 	font-size: 15px;
 	font-size: 1.5rem;
 	line-height: 1.6;
@@ -263,7 +263,7 @@ blockquote small {
 	color: #333;
 	font-size: 15px;
 	font-size: 1.5rem;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	line-height: 1.6;
 }
 
@@ -447,23 +447,23 @@ del {
 
 ::-webkit-input-placeholder {
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 }
 
 :-moz-placeholder {
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 }
 
 ::-moz-placeholder {
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	opacity: 1; /* Since FF19 lowers the opacity of the placeholder by default */
 }
 
 :-ms-input-placeholder {
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 }
 
 
@@ -530,7 +530,7 @@ input[type="submit"] {
 	border: 0;
 	color: #fff;
 	cursor: pointer;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	font-weight: 700;
@@ -598,7 +598,7 @@ textarea:focus {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
 	display: block;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	font-weight: 700;
@@ -696,7 +696,7 @@ a:focus {
 .main-navigation .menu-item-description {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	font-weight: 400;
@@ -936,7 +936,7 @@ a:focus {
 .post-navigation .meta-nav {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	letter-spacing: 0.04em;
@@ -947,7 +947,7 @@ a:focus {
 }
 
 .post-navigation .post-title {
-	font-family: "Noto Serif", serif;
+	font-family: "Alegreya", serif;
 	font-size: 18px;
 	font-size: 1.8rem;
 	line-height: 1.3333;
@@ -990,7 +990,7 @@ a:focus {
 .pagination {
 	background-color: #fff;
 	border-top: 1px solid rgba(51, 51, 51, 0.1);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 }
 
 .pagination .nav-links {
@@ -1073,7 +1073,7 @@ a:focus {
 	color: rgba(51, 51, 51, 0.7);
 	font-size: 12px;
 	font-size: 1.2rem;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-weight: 700;
 	line-height: 1.5;
 	text-transform: uppercase;
@@ -1162,7 +1162,7 @@ a:focus {
 	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
 	color: #21759b;
 	display: block;
-	font: bold 14px/normal "Noto Sans", sans-serif;
+	font: bold 14px/normal "Alegreya Sans", sans-serif;
 	left: -9999em;
 	outline: none;
 	padding: 15px 23px 14px;
@@ -1289,7 +1289,7 @@ img.aligncenter {
 }
 
 .site-title {
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 22px;
 	font-size: 2.2rem;
 	font-weight: 700;
@@ -1299,7 +1299,7 @@ img.aligncenter {
 
 .site-description {
 	display: none;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	font-weight: 400;
@@ -1366,7 +1366,7 @@ img.aligncenter {
 
 .widget-title {
 	color: #333;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	margin: 0 0 1.6em;
 	letter-spacing: 0.04em;
 	text-transform: uppercase;
@@ -1388,7 +1388,7 @@ img.aligncenter {
 }
 
 .widget_calendar caption {
-	font-family: "Noto Serif", serif;
+	font-family: "Alegreya", serif;
 	font-weight: 700;
 	margin: 0 0 1.6em;
 	letter-spacing: 0.04em;
@@ -1507,7 +1507,7 @@ img.aligncenter {
 
 .widget_rss .rss-date,
 .widget_rss cite {
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	font-style: normal;
@@ -1775,7 +1775,7 @@ a.post-thumbnail:focus {
 .author-heading {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	letter-spacing: 0.04em;
@@ -1830,7 +1830,7 @@ a.post-thumbnail:focus {
 	background-color: #f7f7f7;
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	line-height: 1.5;
@@ -1969,7 +1969,7 @@ a.post-thumbnail:focus {
 }
 
 .page-title {
-	font-family: "Noto Serif", serif;
+	font-family: "Alegreya", serif;
 	font-size: 18px;
 	font-size: 1.8rem;
 	line-height: 1.3333;
@@ -2005,7 +2005,7 @@ a.post-thumbnail:focus {
 
 .page-links {
 	clear: both;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	margin-bottom: 1.3333em;
 }
 
@@ -2063,7 +2063,7 @@ a.post-thumbnail:focus {
 .entry-caption {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	-webkit-hyphens: auto;
@@ -2146,7 +2146,7 @@ a.post-thumbnail:focus {
 
 .comments-title,
 .comment-reply-title {
-	font-family: "Noto Serif", serif;
+	font-family: "Alegreya", serif;
 	font-size: 18px;
 	font-size: 1.8rem;
 	line-height: 1.3333;
@@ -2207,7 +2207,7 @@ a.post-thumbnail:focus {
 .pingback .edit-link {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	line-height: 1.5;
@@ -2272,7 +2272,7 @@ a.post-thumbnail:focus {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
 	display: inline-block;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-weight: 700;
 	line-height: 1;
 	margin-top: 2em;
@@ -2294,7 +2294,7 @@ a.post-thumbnail:focus {
 .comment-form label {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	font-weight: 700;
@@ -2317,7 +2317,7 @@ a.post-thumbnail:focus {
 .form-allowed-tags {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	line-height: 1.5;
@@ -2333,7 +2333,7 @@ a.post-thumbnail:focus {
 	border-top: 1px solid rgba(51, 51, 51, 0.1);
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-weight: 700;
 	padding-top: 1.6em;
 }
@@ -2484,7 +2484,7 @@ p > video {
 .wp-caption-text {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	line-height: 1.5;
@@ -2548,7 +2548,7 @@ p > video {
 	color: #707070;
 	color: rgba(51, 51, 51, 0.7);
 	display: block;
-	font-family: "Noto Sans", sans-serif;
+	font-family: "Alegreya Sans", sans-serif;
 	font-size: 12px;
 	font-size: 1.2rem;
 	line-height: 1.5;
