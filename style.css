@@ -1562,7 +1562,7 @@ img.aligncenter {
  */
 
 .hentry {
-	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.8);
 	padding-top: 7.6923%;
 	position: relative;
 }
