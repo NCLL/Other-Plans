@@ -1,14 +1,15 @@
 /*
-Theme Name: Twenty Fifteen
+Theme Name: Other Plans
 Theme URI: https://wordpress.org/themes/twentyfifteen
-Author: the WordPress team
-Author URI: https://wordpress.org/
+Author: AndrewRMinion Design, the WordPress team
+Author URI: http://andrewrminion.com/
 Description: Our 2015 default theme is clean, blog-focused, and designed for clarity. Twenty Fifteen's simple, straightforward typography is readable on a wide variety of screen sizes, and suitable for multiple languages. We designed it using a mobile-first approach, meaning your content takes center-stage, regardless of whether your visitors arrive by smartphone, tablet, laptop, or desktop computer.
 Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: black, blue, gray, pink, purple, white, yellow, dark, light, two-columns, left-sidebar, fixed-layout, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
 Text Domain: twentyfifteen
+Template: twentyfifteen
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -72,8 +73,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 html {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	font-size: 62.5%;
 	overflow-y: scroll;
@@ -84,8 +83,6 @@ html {
 *,
 *:before,
 *:after {
-	-webkit-box-sizing: inherit;
-	-moz-box-sizing: inherit;
 	box-sizing: inherit;
 }
 
@@ -714,8 +711,6 @@ a:focus {
 .dropdown-toggle {
 	background-color: transparent;
 	border: 0;
-	-webkit-box-sizing: content-box;
-	-moz-box-sizing: content-box;
 	box-sizing: content-box;
 	content: "";
 	height: 42px;
@@ -1574,7 +1569,6 @@ img.aligncenter {
 }
 
 .hentry.sticky:not(.has-post-thumbnail) {
-	padding-top: -webkit-calc(7.6923% + 24px);
 	padding-top: calc(7.6923% + 24px);
 }
 
@@ -2572,6 +2566,10 @@ p > video {
  * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
  */
 @-ms-viewport {
+	width: device-width;
+}
+
+@-o-viewport {
 	width: device-width;
 }
 
@@ -5577,7 +5575,6 @@ p > video {
 
 @media screen and (min-width: 87.6875em) {
 	body:before {
-		width: -webkit-calc(50% - 289px);
 		width: calc(50% - 289px);
 	}
 }
