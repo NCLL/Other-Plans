@@ -1308,6 +1308,9 @@ img.aligncenter {
 	opacity: 0.7;
 }
 
+.site-content {
+    background: url('/wp-content/themes/Other-Plans/swoosh.svg') no-repeat center 95% / 90%;
+}
 
 /**
  * 11.0 Widgets
@@ -2652,7 +2655,7 @@ p > video {
 	}
 
 	.site-main {
-		padding: 7.6923% 0;
+		padding: 7.6923% 0 30.7692%;
 	}
 
 	.hentry.sticky:not(.has-post-thumbnail) {
@@ -3923,7 +3926,7 @@ p > video {
 	}
 
 	.site-main {
-		padding: 8.3333% 0;
+		padding: 33.3333% 0 8.3333%;
 	}
 
 	.site-content {
@@ -3932,6 +3935,7 @@ p > video {
 		margin-left: 29.4118%;
 		width: 70.5882%;
 	}
+        background-position: center 1em;
 
 	body {
 		font-size: 15px;
