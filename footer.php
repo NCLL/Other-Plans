@@ -22,7 +22,7 @@
 				 */
 				do_action( 'twentyfifteen_credits' );
 			?>
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyfifteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfifteen' ), 'WordPress' ); ?></a> - <a href="http://www.westhost.com">PHP Hosting by WestHost</a>
+			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyfifteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfifteen' ), 'WordPress' ); ?></a> - <a href="http://andrewrminion.com?utm_source=McPhersonsite">Design by AndrewRMinion Design</a> - <a href="http://www.ncll.org/">Promotion by the National Center for Life and Liberty</a>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 
