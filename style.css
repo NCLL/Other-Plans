@@ -1313,7 +1313,7 @@ img.aligncenter {
 }
 
 .site-content {
-    background: url('/wp-content/themes/Other-Plans/swoosh.svg') no-repeat center 95% / 90%;
+    background: url('/wp-content/themes/Other-Plans/swoosh.svg') no-repeat center bottom 1em / 90%;
 }
 
 /**
@@ -2792,6 +2792,12 @@ p > video {
 	}
 }
 
+@media screen and (max-width: 38.75em) {
+    .site-content {
+        background-position: center bottom 8em;
+    }
+
+}
 
 /**
  * 15.2 Tablet Small 740px
