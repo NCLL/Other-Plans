@@ -186,7 +186,7 @@ a img {
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
-	line-height: 1;
+	line-height: inherit;
 	speak: none;
 	text-align: center;
 	text-decoration: inherit;
