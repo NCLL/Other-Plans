@@ -36,6 +36,19 @@
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#a74624">
+    <meta property="og:title" content="<?php if ( get_field( 'og_title' ) ) { the_field( 'og_title' ); } else { bloginfo( 'name' ); } ?>">
+    <meta property="og:site_name" content="<?php bloginfo( 'name' ); ?>">
+    <meta property="og:url" content="<?php echo get_permalink(); ?>">
+    <?php if ( get_field( 'og_description' ) !== NULL ) { echo '<meta property="og:description" content="' . get_field( 'og_description' ) . '">'; } ?>
+    <?php if ( get_field( 'og_image' ) !== NULL ) {
+        if ( strpos( get_field( 'og_image' ), 'https' ) !== false ) {
+            echo '<meta property="og:image" content="' . str_replace( 'https', 'http', get_field( 'og_image' ) ) . '">';
+            echo '<meta property="og:image:secure_url" content="' . get_field( 'og_image' ) . '">';
+        }
+        else {
+            echo '<meta property="og:image" content="' . get_field( 'og_image' ) . '">';
+        }
+    } ?>
     <?php wp_head(); ?>
 </head>
 
