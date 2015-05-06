@@ -9,3 +9,8 @@ function add_custom_css() {
     wp_enqueue_style( 'webfonts', '//fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic|Alegreya:400,400italic,700,700italic' );
 }
 add_action( 'wp_print_styles', 'add_custom_css' );
+
+function add_GA_event() {
+    wp_enqueue_script( 'GA-event-tracking', get_stylesheet_directory_uri() . '/ga-events.js', array( 'jquery' ) );
+}
+add_action( 'wp_enqueue_scripts', 'add_GA_event' );
