@@ -2515,6 +2515,24 @@ p > video {
     }
 }
 
+.flexbox-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.flexbox-container img {
+    margin: 0 auto;
+}
+
 /**
  * 14.2 Galleries
  */
